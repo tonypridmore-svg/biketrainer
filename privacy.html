@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bike Trainer privacy policy</title>
+<style>
+  :root { --bg: #ffffff; --text: #1b1f24; --muted: #5b6573; --accent: #1f7a3a; --line: #e3e7ec; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0d1117; --text: #e8eef6; --muted: #8d99ab; --accent: #7ee787; --line: #262d3a; }
+  }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 20px 64px; }
+  h1 { font-size: 28px; margin: 0 0 6px; }
+  .sub { color: var(--muted); margin: 0 0 28px; }
+  h2 { font-size: 18px; margin: 28px 0 6px; }
+  ul { padding-left: 20px; }
+  a { color: var(--accent); }
+  footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--line);
+           color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy policy</h1>
+  <p class="sub">Bike Trainer &middot; last updated 28 September 2026</p>
+
+  <p>Bike Trainer is a Windows app that runs on your own computer. It has no servers of its
+  own: the app's author never receives, sees or stores any of your data.</p>
+
+  <h2>What stays on your computer</h2>
+  <p>Your settings, rides, routes, workouts, training plan, segments and coach notes are
+  stored in files on your computer. Sign-in tokens for the services you connect are kept in
+  Windows Credential Manager on your computer, never in plain files.</p>
+
+  <h2>Google Calendar</h2>
+  <p>If you connect Google Calendar, Bike Trainer asks for permission to manage calendar
+  events (the <code>calendar.events</code> scope). It uses that permission only to:</p>
+  <ul>
+    <li>add your planned training sessions and finished rides to your calendar;</li>
+    <li>update or remove those entries when your plan or rides change;</li>
+    <li>find its own entries again, which are marked as the app's, including when you ask
+      it to tidy away duplicate copies. To do that it looks through the events in the
+      calendar and ignores every event it did not create. It keeps nothing about them.</li>
+  </ul>
+  <p>Calendar data goes only between your computer and Google. It is not shared with anyone,
+  sold, used for advertising, or used to train AI models.</p>
+  <p>Bike Trainer's use and transfer of information received from Google APIs adheres to the
+  <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API
+  Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+  <h2>Other services you choose to connect</h2>
+  <ul>
+    <li><b>Strava</b>, to upload your rides and read your own activities and segments.
+      Data goes only between your computer and Strava.</li>
+    <li><b>Google Gemini</b>, for the training coach, using your own API key. Your training
+      numbers, plan and questions are sent to Google's Gemini service to get the coach's
+      answer.</li>
+  </ul>
+
+  <h2>Removing access and deleting data</h2>
+  <p>You can disconnect any service inside the app at any time. You can also remove Bike
+  Trainer's access to your Google account at
+  <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.
+  Everything the app keeps is on your computer, so deleting the app's files deletes it.</p>
+
+  <h2>Questions</h2>
+  <p>Contact the developer at the support email shown on Google's sign-in screen for
+  Bike Trainer.</p>
+
+  <footer><a href="index.html">Bike Trainer home</a></footer>
+</main>
+</body>
+</html>
